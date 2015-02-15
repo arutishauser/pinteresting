@@ -11,7 +11,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "bootstrap-sass"
 gem 'devise', '~> 3.4.0'
 gem 'paperclip'
-gem 'aws-sdk', '~> 1.61.0'
+gem 'aws-sdk', '< 2.0'
 gem 'puma'
 
 group :development, :test do 
