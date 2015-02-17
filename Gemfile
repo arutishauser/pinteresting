@@ -12,10 +12,10 @@ gem "bootstrap-sass"
 gem 'devise', '~> 3.4.0'
 gem 'paperclip'
 gem 'puma'
+gem 'aws-sdk'
 
 group :development, :test do 
-gem 'sqlite3'
-gem 'aws-sdk'	
+gem 'sqlite3'	
 end
 group :production do
 	gem "pg"
