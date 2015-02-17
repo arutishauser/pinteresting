@@ -11,11 +11,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "bootstrap-sass"
 gem 'devise', '~> 3.4.0'
 gem 'paperclip'
-gem 'aws-sdk'
 gem 'puma'
 
 group :development, :test do 
-gem 'sqlite3'	
+gem 'sqlite3'
+gem 'aws-sdk'	
 end
 group :production do
 	gem "pg"
